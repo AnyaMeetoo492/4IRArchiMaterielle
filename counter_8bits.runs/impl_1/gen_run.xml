@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1741194221">
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1741854655">
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-RQS" Name="Compteur_8bits_postroute_physopted.rqs"/>
-  <File Type="ROUTE-RQS" Name="Compteur_8bits_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="Test_Compteur_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS" Name="Test_Compteur_routed.rqs"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="BG-BGN" Name="Compteur_8bits.bgn"/>
-  <File Type="BITSTR-SYSDEF" Name="Compteur_8bits.sysdef"/>
+  <File Type="BG-BGN" Name="Test_Compteur.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="Test_Compteur.sysdef"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="Compteur_8bits.ltx"/>
-  <File Type="RBD_FILE" Name="Compteur_8bits.rbd"/>
-  <File Type="NPI_FILE" Name="Compteur_8bits.npi"/>
-  <File Type="RNPI_FILE" Name="Compteur_8bits.rnpi"/>
-  <File Type="CFI_FILE" Name="Compteur_8bits.cfi"/>
-  <File Type="RCFI_FILE" Name="Compteur_8bits.rcfi"/>
-  <File Type="PL-PDI-FILE" Name="Compteur_8bits_pld.pdi"/>
-  <File Type="BOOT-PDI-FILE" Name="Compteur_8bits_soc.pdi"/>
-  <File Type="RDI-RDI" Name="Compteur_8bits.vdi"/>
-  <File Type="PDI-FILE" Name="Compteur_8bits.pdi"/>
-  <File Type="BITSTR-MMI" Name="Compteur_8bits.mmi"/>
-  <File Type="BITSTR-BMM" Name="Compteur_8bits_bd.bmm"/>
-  <File Type="BITSTR-NKY" Name="Compteur_8bits.nky"/>
-  <File Type="BITSTR-RBT" Name="Compteur_8bits.rbt"/>
-  <File Type="BITSTR-MSK" Name="Compteur_8bits.msk"/>
-  <File Type="BG-BIN" Name="Compteur_8bits.bin"/>
+  <File Type="BITSTR-LTX" Name="Test_Compteur.ltx"/>
+  <File Type="RBD_FILE" Name="Test_Compteur.rbd"/>
+  <File Type="NPI_FILE" Name="Test_Compteur.npi"/>
+  <File Type="RNPI_FILE" Name="Test_Compteur.rnpi"/>
+  <File Type="CFI_FILE" Name="Test_Compteur.cfi"/>
+  <File Type="RCFI_FILE" Name="Test_Compteur.rcfi"/>
+  <File Type="PL-PDI-FILE" Name="Test_Compteur_pld.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="Test_Compteur_soc.pdi"/>
+  <File Type="RDI-RDI" Name="Test_Compteur.vdi"/>
+  <File Type="PDI-FILE" Name="Test_Compteur.pdi"/>
+  <File Type="BITSTR-MMI" Name="Test_Compteur.mmi"/>
+  <File Type="BITSTR-BMM" Name="Test_Compteur_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="Test_Compteur.nky"/>
+  <File Type="BITSTR-RBT" Name="Test_Compteur.rbt"/>
+  <File Type="BITSTR-MSK" Name="Test_Compteur.msk"/>
+  <File Type="BG-BIN" Name="Test_Compteur.bin"/>
   <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
-  <File Type="BG-BIT" Name="Compteur_8bits.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Compteur_8bits_bus_skew_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Compteur_8bits_bus_skew_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Compteur_8bits_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Compteur_8bits_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Compteur_8bits_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Compteur_8bits_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Compteur_8bits_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Compteur_8bits_postroute_physopt.dcp"/>
-  <File Type="BG-DRC" Name="Compteur_8bits.drc"/>
-  <File Type="ROUTE-RQS-PB" Name="Compteur_8bits_rqs_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="Compteur_8bits_bus_skew_routed.rpx"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="Compteur_8bits_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW" Name="Compteur_8bits_bus_skew_routed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="Compteur_8bits_utilization_placed.pb"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="Compteur_8bits_methodology_drc_opted.rpt"/>
-  <File Type="PLACE-UTIL" Name="Compteur_8bits_utilization_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="Compteur_8bits_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-IO" Name="Compteur_8bits_io_placed.rpt"/>
-  <File Type="PHYSOPT-TIMING" Name="Compteur_8bits_timing_summary_physopted.rpt"/>
-  <File Type="PWROPT-DRC" Name="Compteur_8bits_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="Compteur_8bits_timing_summary_pwropted.rpt"/>
-  <File Type="OPT-DRC" Name="Compteur_8bits_drc_opted.rpt"/>
-  <File Type="PLACE-TIMING" Name="Compteur_8bits_timing_summary_placed.rpt"/>
-  <File Type="INIT-TIMING" Name="Compteur_8bits_timing_summary_init.rpt"/>
-  <File Type="PA-TCL" Name="Compteur_8bits.tcl"/>
-  <File Type="PLACE-CTRL" Name="Compteur_8bits_control_sets_placed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="Compteur_8bits_methodology_drc_routed.rpt"/>
-  <File Type="OPT-DCP" Name="Compteur_8bits_opt.dcp"/>
-  <File Type="OPT-RQA-PB" Name="Compteur_8bits_rqa_opted.pb"/>
-  <File Type="OPT-HWDEF" Name="Compteur_8bits.hwdef"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="Compteur_8bits_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="REPORTS-TCL" Name="Compteur_8bits_reports.tcl"/>
-  <File Type="OPT-TIMING" Name="Compteur_8bits_timing_summary_opted.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="Compteur_8bits_incremental_reuse_placed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Compteur_8bits_methodology_drc_routed.pb"/>
-  <File Type="PLACE-DCP" Name="Compteur_8bits_placed.dcp"/>
-  <File Type="PLACE-RQA-PB" Name="Compteur_8bits_rqa_placed.pb"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="Compteur_8bits_incremental_reuse_pre_placed.rpt"/>
-  <File Type="ROUTE-DRC-RPX" Name="Compteur_8bits_drc_routed.rpx"/>
-  <File Type="PWROPT-DCP" Name="Compteur_8bits_pwropt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="Compteur_8bits_postplace_pwropt.dcp"/>
-  <File Type="PHYSOPT-DCP" Name="Compteur_8bits_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="Compteur_8bits_drc_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="Compteur_8bits_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="Compteur_8bits_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="Compteur_8bits_routed_bb.dcp"/>
-  <File Type="ROUTE-DRC" Name="Compteur_8bits_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Compteur_8bits_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-DRC-PB" Name="Compteur_8bits_drc_routed.pb"/>
-  <File Type="ROUTE-PWR" Name="Compteur_8bits_power_routed.rpt"/>
-  <File Type="ROUTE-PWR-SUM" Name="Compteur_8bits_power_summary_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="Compteur_8bits_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="Compteur_8bits_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="Compteur_8bits_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="Compteur_8bits_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="Compteur_8bits_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="Compteur_8bits_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="Compteur_8bits_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="Compteur_8bits_clock_utilization_routed.rpt"/>
+  <File Type="BG-BIT" Name="Test_Compteur.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Test_Compteur_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Test_Compteur_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Test_Compteur_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Test_Compteur_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Test_Compteur_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Test_Compteur_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Test_Compteur_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Test_Compteur_postroute_physopt.dcp"/>
+  <File Type="BG-DRC" Name="Test_Compteur.drc"/>
+  <File Type="ROUTE-RQS-PB" Name="Test_Compteur_rqs_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Test_Compteur_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Test_Compteur_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Test_Compteur_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Test_Compteur_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="Test_Compteur_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Test_Compteur_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="Test_Compteur_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Test_Compteur_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Test_Compteur_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="Test_Compteur_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="Test_Compteur_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="Test_Compteur_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="Test_Compteur_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Test_Compteur_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Test_Compteur_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Test_Compteur_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="Test_Compteur_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="Test_Compteur_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="Test_Compteur_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Test_Compteur_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="Test_Compteur_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Test_Compteur_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="Test_Compteur_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="Test_Compteur_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Test_Compteur_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Test_Compteur_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Test_Compteur_postplace_pwropt.dcp"/>
+  <File Type="PLACE-RQA-PB" Name="Test_Compteur_rqa_placed.pb"/>
+  <File Type="PLACE-TIMING" Name="Test_Compteur_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Test_Compteur_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Test_Compteur_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="Test_Compteur_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Test_Compteur_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="Test_Compteur_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Test_Compteur_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="Test_Compteur_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="Test_Compteur_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="Test_Compteur_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="Test_Compteur_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="Test_Compteur_pwropt.dcp"/>
+  <File Type="OPT-RQA-PB" Name="Test_Compteur_rqa_opted.pb"/>
+  <File Type="OPT-HWDEF" Name="Test_Compteur.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Test_Compteur_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="Test_Compteur_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Test_Compteur_opt.dcp"/>
+  <File Type="OPT-TIMING" Name="Test_Compteur_timing_summary_opted.rpt"/>
+  <File Type="REPORTS-TCL" Name="Test_Compteur_reports.tcl"/>
+  <File Type="INIT-TIMING" Name="Test_Compteur_timing_summary_init.rpt"/>
+  <File Type="PA-TCL" Name="Test_Compteur.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/Compteur_8bits.vhd">
@@ -92,22 +92,27 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/new/Test_Compteur.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="Compteur_8bits"/>
+      <Option Name="TopModule" Val="Test_Compteur"/>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
     <Filter Type="Constrs"/>
-    <File Path="$PSRCDIR/constrs_1/new/Compteur_8bits.xdc">
+    <File Path="$PSRCDIR/constrs_1/new/Test_Compteur.xdc">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
       </FileInfo>
     </File>
     <Config>
-      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/Compteur_8bits.xdc"/>
       <Option Name="ConstrsType" Val="XDC"/>
     </Config>
   </FileSet>
@@ -126,9 +131,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023">
-      <Desc>Default settings for Implementation.</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>

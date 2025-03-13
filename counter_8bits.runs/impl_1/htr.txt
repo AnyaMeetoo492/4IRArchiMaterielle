@@ -7,4 +7,4 @@
 # Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 #
 
-vivado -log Compteur_8bits.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source Compteur_8bits.tcl -notrace
+vivado -log Test_Compteur.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source Test_Compteur.tcl -notrace

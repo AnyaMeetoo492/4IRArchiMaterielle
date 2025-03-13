@@ -36,18 +36,17 @@ end Test_Compteur;
 
 architecture Behavioral of Test_Compteur is
 -- Component Declaration for the Unit Under Test (UUT)
-
+    
     COMPONENT Compteur_8bits
-        PORT(
-            CLK : IN std_logic;
-            RST : IN std_logic;
-            SENS : IN std_logic;
-            EN : IN std_logic;
-            LOAD : IN std_logic;
-            Din : IN std_logic_vector(7 downto 0);
-            Dout : OUT std_logic_vector(7 downto 0)
-        );
-    END COMPONENT;
+    Port ( CLK : in STD_LOGIC;
+           SENS : in STD_LOGIC;
+           RST : in STD_LOGIC;
+           LOAD : in STD_LOGIC;
+           EN : in STD_LOGIC;
+
+           Din : in std_logic_vector(7 downto 0);
+           Dout : out std_logic_vector(7 downto 0));
+    end COMPONENT;
     
     --Inputs
     signal Sig_CLK : std_logic := '0';
@@ -55,18 +54,18 @@ architecture Behavioral of Test_Compteur is
     signal Sig_SENS : std_logic := '1'; -- upwards
     signal Sig_EN : std_logic := '1'; -- not enabled 
     signal Sig_LOAD : std_logic := '0'; -- no loading
-    signal Sig_Din : std_logic_vector(0 downto 7) := (others => '0');
+    signal Sig_Din : std_logic_vector(7 downto 0) := (others => '0');
     
     --Outputs
-    signal Sig_Dout : std_logic_vector(0 downto 7);
+    signal Sig_Dout : std_logic_vector(7 downto 0);
     
     -- Clock period definitions
     -- Si 100 MHz
-    constant Clock_period : time := 10 ns;
+    constant Clock_period : time := 500 ms;
     
     constant T1 : time := 10 ns;
     constant T2 : time := 20 ns;
-    constant T3 : time := 3000 ns; -- 2560 (2⁸ * period of clock) + T1 + T2 
+    constant T3 : time := 300 ns; -- 2560 (2⁸ * period of clock) + T1 + T2 
     constant T4 : time := 50 ns;
     constant T5 : time := 100 ns;
     
@@ -103,6 +102,6 @@ architecture Behavioral of Test_Compteur is
         -- Load
         Sig_LOAD <= '1' after T4, '0' after T5;
         -- Din (load 32)
-        Sig_Din <= "100000" after T4;
+        Sig_Din <= "00010000" after T4;
         
     end;

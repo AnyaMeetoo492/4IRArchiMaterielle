@@ -28,7 +28,7 @@ eval( EAInclude(ISEJScriptLib) );
 
 
 ISEStep( "vivado",
-         "-log Compteur_8bits.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Compteur_8bits.tcl" );
+         "-log Test_Compteur.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Test_Compteur.tcl" );
 
 
 

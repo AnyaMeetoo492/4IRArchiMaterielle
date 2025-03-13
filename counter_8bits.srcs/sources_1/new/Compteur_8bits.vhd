@@ -49,16 +49,17 @@ architecture Behavioral of Compteur_8bits is
 begin
     process --sensibilité aux signaux ???
     begin
+        wait until CLK'event and CLK='1' ;
         if RST= '0' then count <= (others => '0');
         elsif LOAD='1' then count <= Din;
-        wait until CLK'event and CLK='1' ;
-            elsif EN='0' then
-                if SENS='0' then
-                    count <= std_logic_vector(unsigned(count) - 1); 
-                else
-                    count <= std_logic_vector(unsigned(count) + 1); 
-                end if;
+        
+        elsif EN='0' then
+            if SENS='0' then
+                count <= std_logic_vector(unsigned(count) - 1); 
+            else
+                count <= std_logic_vector(unsigned(count) + 1); 
             end if;
+        end if;
     end process;
     Dout<=count;
 end Behavioral;

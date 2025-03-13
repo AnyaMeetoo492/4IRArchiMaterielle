@@ -1,0 +1,305 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Thu Mar 13 09:31:39 2025
+# Process ID: 24594
+# Current directory: /home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.runs/impl_1
+# Command line: vivado -log Test_Compteur.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Test_Compteur.tcl -notrace
+# Log file: /home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.runs/impl_1/Test_Compteur.vdi
+# Journal file: /home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.runs/impl_1/vivado.jou
+# Running On: insa-11270, OS: Linux, CPU Frequency: 4297.624 MHz, CPU Physical cores: 6, Host memory: 67247 MB
+#-----------------------------------------------------------
+source Test_Compteur.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1279.797 ; gain = 0.023 ; free physical = 54397 ; free virtual = 58252
+Command: link_design -top Test_Compteur -part xc7a35tcpg236-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1629.680 ; gain = 0.000 ; free physical = 54057 ; free virtual = 57912
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc]
+WARNING: [Vivado 12-507] No nets matched 'CLK'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CLK'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'RST'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'RST'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SENS'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SENS'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'EN'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'EN'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LOAD'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LOAD'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Din[0]'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Din[0]'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Din[1]'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Din[1]'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Din[2]'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Din[2]'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Din[3]'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Din[3]'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Din[4]'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Din[4]'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Din[5]'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Din[5]'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Din[6]'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Din[6]'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Din[7]'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Din[7]'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:76]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:76]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Dout[0]'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:80]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:80]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Dout[0]'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:81]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:81]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Dout[1]'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:82]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:82]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Dout[1]'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:83]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:83]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Dout[2]'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:84]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:84]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Dout[2]'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Dout[3]'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Dout[3]'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:87]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:87]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Dout[4]'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:88]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:88]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Dout[4]'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:89]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:89]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Dout[5]'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:90]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:90]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Dout[5]'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:91]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:91]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Dout[6]'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:92]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:92]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Dout[6]'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:93]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:93]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Dout[7]'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:94]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:94]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Dout[7]'. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:95]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc:95]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.srcs/constrs_1/new/Test_Compteur.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1729.148 ; gain = 0.000 ; free physical = 53959 ; free virtual = 57814
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+5 Infos, 42 Warnings, 42 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1729.148 ; gain = 443.352 ; free physical = 53959 ; free virtual = 57814
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00.34 ; elapsed = 00:00:00.4 . Memory (MB): peak = 1799.117 ; gain = 69.969 ; free physical = 53950 ; free virtual = 57805
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 00f28cbb
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2218.094 ; gain = 418.977 ; free physical = 53516 ; free virtual = 57371
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 00f28cbb
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2499.016 ; gain = 0.000 ; free physical = 53241 ; free virtual = 57096
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 00f28cbb
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2499.016 ; gain = 0.000 ; free physical = 53241 ; free virtual = 57096
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 00f28cbb
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2499.016 ; gain = 0.000 ; free physical = 53241 ; free virtual = 57096
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 00f28cbb
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2531.031 ; gain = 32.016 ; free physical = 53241 ; free virtual = 57096
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: 00f28cbb
+
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2531.031 ; gain = 32.016 ; free physical = 53241 ; free virtual = 57096
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 00f28cbb
+
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2531.031 ; gain = 32.016 ; free physical = 53241 ; free virtual = 57096
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |               0  |                                              0  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |               0  |               0  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2531.031 ; gain = 0.000 ; free physical = 53240 ; free virtual = 57095
+Ending Logic Optimization Task | Checksum: 00f28cbb
+
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.05 . Memory (MB): peak = 2531.031 ; gain = 32.016 ; free physical = 53240 ; free virtual = 57095
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 00f28cbb
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2531.031 ; gain = 0.000 ; free physical = 53240 ; free virtual = 57095
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 00f28cbb
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2531.031 ; gain = 0.000 ; free physical = 53240 ; free virtual = 57095
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2531.031 ; gain = 0.000 ; free physical = 53240 ; free virtual = 57095
+Ending Netlist Obfuscation Task | Checksum: 00f28cbb
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2531.031 ; gain = 0.000 ; free physical = 53240 ; free virtual = 57095
+INFO: [Common 17-83] Releasing license: Implementation
+22 Infos, 42 Warnings, 42 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2531.031 ; gain = 801.883 ; free physical = 53240 ; free virtual = 57095
+INFO: [runtcl-4] Executing : report_drc -file Test_Compteur_drc_opted.rpt -pb Test_Compteur_drc_opted.pb -rpx Test_Compteur_drc_opted.rpx
+Command: report_drc -file Test_Compteur_drc_opted.rpt -pb Test_Compteur_drc_opted.pb -rpx Test_Compteur_drc_opted.rpx
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/usr/local/insa/Xilinx/Vivado/2023.1/data/ip'.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file /home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.runs/impl_1/Test_Compteur_drc_opted.rpt.
+report_drc completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+INFO: [Common 17-1381] The checkpoint '/home/froussea/cours_4a/2e semestre/archi mat/counter_8bits/counter_8bits.runs/impl_1/Test_Compteur_opt.dcp' has been generated.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 8 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2644.922 ; gain = 0.000 ; free physical = 53240 ; free virtual = 57095
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 00000000
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2644.922 ; gain = 0.000 ; free physical = 53240 ; free virtual = 57095
+Phase 1 Placer Initialization | Checksum: 00000000
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2644.922 ; gain = 0.000 ; free physical = 53240 ; free virtual = 57095
+ERROR: [Place 30-494] The design is empty
+Resolution: Check if opt_design has removed all the leaf cells of your design.  Check whether you have instantiated and connected all of the top level ports.
+Ending Placer Task | Checksum: 00000000
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2644.922 ; gain = 0.000 ; free physical = 53240 ; free virtual = 57095
+INFO: [Common 17-83] Releasing license: Implementation
+39 Infos, 42 Warnings, 42 Critical Warnings and 2 Errors encountered.
+place_design failed
+ERROR: [Common 17-69] Command failed: Placer could not place all instances
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 13 09:32:06 2025...
